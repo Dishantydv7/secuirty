@@ -100,7 +100,7 @@ export default function Guidelines() {
                         .)</li>
                     <li>Adherence to the directions given by the Hon&prime;ble Bombay High court in the PIL no. 173/2010, regarding noise pollution is
                         compulsory. It should be noted that, in the event of non-compliance of the directions given by Hon&prime;ble Bombay High court,
-                        appropriate action will  be taken against the organiser.</li>
+                        appropriate action will  be taken against the organiser</li>
                     <li>
                         Police have the right to revoke a given license.
                     </li>
