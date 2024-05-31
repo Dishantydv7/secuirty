@@ -1,8 +1,28 @@
+"use client";
 import Link from "next/link"
-import { MovingBorderDemo } from "@/components/Button"
+import { MovingBorderDemo } from "@/components/ButtonNoLink"
 import CheckboxLabels from "@/components/Checkbox"
+import { useState } from "react"
+import { useRouter } from 'next/navigation'
 
 export default function Terms() {
+
+
+  const [isChecked, setIsChecked] = useState(false)
+  const router = useRouter();
+  const push = () => {
+    if (isChecked === true) {
+      router.push("/dashboard")
+    } else {
+      router.push("/404")
+    }
+  }
+
+  function handleChange() {
+    setIsChecked(!isChecked)
+   }
+
+
   return (
     <div className="relative h-screen w-full">
       <div className="absolute top-4 left-4">
@@ -22,10 +42,14 @@ export default function Terms() {
             <p className="text-gray-400">It is prohibited to share the information with any third party without the approval of the competent authority. The information can not be shared with press in any form</p>
         </div>
 
-        <CheckboxLabels />
+        {/* <CheckboxLabels  /> */}
+        <input value = "test" type = "checkbox" onChange = {handleChange} />
         
         <div className="mt-8">
-          <MovingBorderDemo>
+          <MovingBorderDemo onClick={() => (
+            router.push("/dashboard")
+           
+          )} content="Continue">
             Get Started
             <ArrowRightIcon className="ml-2 h-5 w-5" />
           </MovingBorderDemo>

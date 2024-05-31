@@ -1,18 +1,21 @@
 "use client"
 import React from 'react'
 import NewsHeader from '@/components/NewsHeader'
-import { MovingBorderDemo } from '@/components/Button'
+import { MovingBorderDemo } from '@/components/ButtonWithLink'
 import { Card } from '@/components/card'
 import Link from 'next/link'
 import Testimonials from '@/components/News'
+import { Watermark } from '@hirohe/react-watermark'
 
 
 function page() {
 
   return (
     <>
+    <Watermark text="22b3984" textSize={20} gutter={23}>
     <Testimonials/>
       {/* <NewsHeader children="news will be displayed here" title="Welcome to the Secuirty" /> */}
+      
       <div className='flex justify-center gap-5 py-5'>
         <MovingBorderDemo content="tab1"  />
         <MovingBorderDemo content="tab2" />
@@ -116,7 +119,7 @@ function page() {
           <Card title="3" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Department of Motor Police (RTO)" style={{ maxWidth: '25%' }} />
         </Link>
       </div>
-
+</Watermark>
 
     </>
   )

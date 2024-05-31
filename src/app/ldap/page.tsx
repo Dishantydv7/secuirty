@@ -1,7 +1,7 @@
 
-import {MovingBorderDemo} from "@/components/Button"
+import {MovingBorderDemo} from "@/components/ButtonWithLink"
 
-export default function Component() {
+export default function Ldap() {
   return (
     <section className="flex flex-col items-center justify-center h-screen w-full bg-cover bg-center">
       <div className="flex flex-col items-center space-y-4">
@@ -20,7 +20,7 @@ export default function Component() {
         />
         <h2 className="text-3xl font-bold text-white">The Secuirty Section , IIT Bombay</h2>
         <p className="text-lg text-gray-200 ">Welcome to our Website</p>
-        <MovingBorderDemo className="mt-6 bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-md bottom-0" content = "sso login"></MovingBorderDemo>
+        <MovingBorderDemo className="mt-6 bg-gray-900 hover:bg-gray-800 text-white px-8 py-3 rounded-md bottom-0" content = "sso login" link = "/terms"></MovingBorderDemo>
       </div>
     </section>
   )

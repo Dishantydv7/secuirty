@@ -3,6 +3,7 @@ import React from 'react'
 import { Button } from '@/components//ui/moving-border'
 import Link from 'next/link'
 import { HoverEffect } from "@/components/ui/card-hover-effect";
+import { Watermark } from '@hirohe/react-watermark';
 
 
 
@@ -54,7 +55,9 @@ export default function EmergencyDetails() {
     },
   ];
   return (
+   <Watermark text="22b3984" textSize={20} gutter={23}>
     <div className='p-12 bg-gray-900'>
+       
       <div className='max-w-7xl mx-auto px-4 sm:px-6'>
         <div className='text-center'>
           <h2 className='text-base text-teal-600 font-semibold tracking-wide uppercase'>IIT BOMBAY</h2>
@@ -75,7 +78,9 @@ export default function EmergencyDetails() {
           </Link>
         </div>
       </div>
+      
     </div>
+    </Watermark>
   )
 }
 
