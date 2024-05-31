@@ -5,6 +5,7 @@ import { useState } from "react"
 import { useRouter } from 'next/navigation'
 import { ButtonAsChild } from "@/components/ButtonAsChild";
 import { Button } from "@mui/material";
+import { Label } from "@/components/ui/label";
 
 export default function Terms() {
 
@@ -44,8 +45,10 @@ export default function Terms() {
         </div>
 
         {/* <CheckboxLabels  /> */}
-        <input value="test" type="checkbox" onChange={() => setIsChecked(!isChecked)} />
-        
+        <div className="flex justify-start ml-4">
+          <input value="test" type="checkbox" onChange={() => setIsChecked(!isChecked)} className="flex-none" />
+          <label htmlFor="test" className="ml-3">I have read the above information</label>
+        </div>
         <div className="mt-8">
           <Button onClick={() => isChecked ? router.push("/dashboard") : router.push("/404")}>
             Continue
