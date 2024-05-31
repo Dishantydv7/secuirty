@@ -77,7 +77,7 @@ export default function Guidelines() {
                 </ol>
                 <p className="mt-4">
                     * dB(A) Leq denotes the time weighted average of the level of sound in decibels on scale A which is relatable
-                    to human hearing. "A", in dB(A) Leq, denotes the frequency weighting in the measurement of noise and
+                    to human hearing. &quot;A&quot;, in dB(A) Leq, denotes the frequency weighting in the measurement of noise and
                     corresponds to frequency response characteristics of the human ear.
                 </p>
                 <p className="italic mt-2">Leq: It is an energy mean of the noise level over a specified period.</p>

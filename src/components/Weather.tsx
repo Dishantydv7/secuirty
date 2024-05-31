@@ -7,11 +7,11 @@ export default function Weather() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 bg-blue-200 rounded-b-lg">
                 <div className="bg-gray-100 p-4 rounded-lg">
-                    <h2 className="text-gray-700">Today's weather conditions</h2>
-                    <p>blah blab</p>
-                    <p>blah blab</p>
-                    <p>blah blab</p>
-                    <p>blah blab</p>
+                    <iframe src="https://api.wo-cloud.com/content/widget/?geoObjectKey=4704549&language=en&region=IN&timeFormat=HH:mm&windUnit=kmh&systemOfMeasurement=metric&temperatureUnit=celsius" name="CW2" scrolling="no" width="290" height="318" frameBorder="0" style = {{ 
+                border: '1px solid #10658E',
+                height : "100%",
+                width : "100%",
+                 borderRadius : '8px'}}></iframe>
                 </div>
                 <div className="bg-gray-100 p-4 rounded-lg" style={{ height: "400px" }}>
                     <iframe
@@ -47,7 +47,7 @@ export default function Weather() {
                 </div>
 
                 <div className="bg-gray-100 p-4 rounded-lg w-full sm:w-1/2 md:w-2/3 lg:w-3/4">
-                    <div id="ww_eb60f82b5556d" style={{ position: 'relative', top: 0, width: '100%', height: '100%' }} v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>More forecasts: <a href="https://oneweather.org/fr/paris/30_jours/" id="ww_eb60f82b5556d_u" target="_blank">Meteo a 30 jours</a></div>
+                    {/* <div id="ww_eb60f82b5556d" style={{ position: 'relative', top: 0, width: '100%', height: '100%' }} v='1.3' loc='id' a='{"t":"horizontal","lang":"en","sl_lpl":1,"ids":[],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>More forecasts: <a href="https://oneweather.org/fr/paris/30_jours/" id="ww_eb60f82b5556d_u" target="_blank">Meteo a 30 jours</a></div> */}
                     <script async src="https://app2.weatherwidget.org/js/?id=ww_eb60f82b5556d"></script>
                     <p className="text-gray-700"></p>
                 </div>
