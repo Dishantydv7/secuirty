@@ -1,5 +1,6 @@
 
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
+import { Tab } from "@mui/material"
 
 export default function Guidelines() {
     return (
@@ -73,6 +74,35 @@ export default function Guidelines() {
                     <li>
                         Mixed categories of areas may be declared as one of the four above mentioned categories by the competent
                         authority.
+                    </li>
+                    <li>Restrictions on use of loudspeakers in the Night time</li>
+                    <li>The place of loudspeaker mentioned in the application should not be changed without the prior permission of the competent
+                        police authority.</li>
+                    <li>Loudspeaker license fees are as follows.</li>
+                    <Table>
+                        <TableRow>
+                            <TableCell><b>New application for license</b></TableCell>
+                            <TableCell>Rs. 10/-</TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell><b>License for 01 to 07 days</b></TableCell>
+                            <TableCell>Rs. 200/-</TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell><b>Renewal for more than 7 days but less than 30 days</b></TableCell>
+                            <TableCell>Rs. 20/- per day</TableCell>
+                        </TableRow>
+                    </Table>
+                    <li>In breach of the terms and conditions of the license, the Loudspeaker contractor will be subject to legal action under section 131,
+                        Mumbai Police Act 1951.</li>
+                    <li>Under section 15, of the Environment (Protection) Act 1986, Breach of any of the provisions of this Act and of an order issued
+                        pursuant to that Act, shall be punishable with a term of imprisonment of up to a term of five years and Rs. 1,00,000/- (Rs. one lakh
+                        .)</li>
+                    <li>Adherence to the directions given by the Hon'ble Bombay High court in the PIL no. 173/2010, regarding noise pollution is
+                        compulsory. It should be noted that, in the event of non-compliance of the directions given by Hon'ble Bombay High court,
+                        appropriate action will  be taken against the organiser.</li>
+                    <li>
+                        Police have the right to revoke a given license.
                     </li>
                 </ol>
                 <p className="mt-4">
