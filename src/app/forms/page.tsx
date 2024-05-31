@@ -23,7 +23,7 @@ export default function Component() {
           <div className="grid gap-1.5">
             <Label htmlFor="email" className="text-center">Email</Label>
             <Input type="email" id="email" placeholder="Enter your email" />
-            <p className="text-sm text-gray-400">We'll never share your email with anyone else.</p>
+            <p className="text-sm text-gray-400">We&lsquo;ll never share your email with anyone else.</p>
           </div>
           <div className="grid gap-1.5">
             <Label htmlFor="password" className="text-center">Password</Label>
@@ -33,7 +33,7 @@ export default function Component() {
           <div className="grid gap-1.5">
             <Label htmlFor="message" className="text-center">Message</Label>
             <Textarea id="message" placeholder="Enter your message" rows={4} />
-            <p className="text-sm text-gray-400">Tell us what's on your mind.</p>
+            <p className="text-sm text-gray-400">Tell us what&lsquo;s on your mind.</p>
           </div>
           <div className="grid gap-1.5">
             <Label htmlFor="image" className="text-center">Image</Label>
