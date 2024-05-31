@@ -98,8 +98,8 @@ export default function Guidelines() {
                     <li>Under section 15, of the Environment (Protection) Act 1986, Breach of any of the provisions of this Act and of an order issued
                         pursuant to that Act, shall be punishable with a term of imprisonment of up to a term of five years and Rs. 1,00,000/- (Rs. one lakh
                         .)</li>
-                    <li>Adherence to the directions given by the Hon'ble Bombay High court in the PIL no. 173/2010, regarding noise pollution is
-                        compulsory. It should be noted that, in the event of non-compliance of the directions given by Hon'ble Bombay High court,
+                    <li>Adherence to the directions given by the Hon&prime;ble Bombay High court in the PIL no. 173/2010, regarding noise pollution is
+                        compulsory. It should be noted that, in the event of non-compliance of the directions given by Hon&prime;ble Bombay High court,
                         appropriate action will  be taken against the organiser.</li>
                     <li>
                         Police have the right to revoke a given license.
