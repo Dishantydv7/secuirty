@@ -1,9 +1,10 @@
 "use client";
 import Link from "next/link"
 import { MovingBorderDemo } from "@/components/ButtonNoLink"
-import CheckboxLabels from "@/components/Checkbox"
 import { useState } from "react"
 import { useRouter } from 'next/navigation'
+import { ButtonAsChild } from "@/components/ButtonAsChild";
+import { Button } from "@mui/material";
 
 export default function Terms() {
 
@@ -43,16 +44,12 @@ export default function Terms() {
         </div>
 
         {/* <CheckboxLabels  /> */}
-        <input value = "test" type = "checkbox" onChange = {handleChange} />
+        <input value="test" type="checkbox" onChange={() => setIsChecked(!isChecked)} />
         
         <div className="mt-8">
-          <MovingBorderDemo onClick={() => (
-            router.push("/dashboard")
-           
-          )} content="Continue">
-            Get Started
-            <ArrowRightIcon className="ml-2 h-5 w-5" />
-          </MovingBorderDemo>
+          <Button onClick={() => isChecked ? router.push("/dashboard") : router.push("/404")}>
+            Continue
+          </Button>
         </div>
       </div>
     </div>
