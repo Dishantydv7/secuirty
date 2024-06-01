@@ -2,11 +2,11 @@
 import React from "react";
 import { PinContainer } from "../components/ui/3d-pin";
 
-export function Card({title ,content , description , linkofimage}:any) {
+export function Card({title ,content , description , linkofimage , pinbartitle}:any) {
   return (
     <div className="h-[40rem] w-full flex items-center justify-center ">
       <PinContainer
-        title="/ui.aceternity.com"
+        title= {pinbartitle}
         href="https://twitter.com/mannupaaji"
       >
         <div className="flex basis-full flex-col  tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] h-[20rem] ">
@@ -21,7 +21,7 @@ export function Card({title ,content , description , linkofimage}:any) {
           <img 
           src={linkofimage}
           />
-          <div className="justify-center font-bold flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" >{description}</div>
+          <div className="font-extrabold justify-center items-center  flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" >{description}</div>
         </div>
       </PinContainer>
     </div>

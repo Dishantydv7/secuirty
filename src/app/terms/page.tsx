@@ -6,6 +6,7 @@ import { useRouter } from 'next/navigation'
 import { ButtonAsChild } from "@/components/ButtonAsChild";
 import { Button } from "@mui/material";
 import { Label } from "@/components/ui/label";
+import {Watermark} from "@hirohe/react-watermark";
 
 export default function Terms() {
 
@@ -26,6 +27,7 @@ export default function Terms() {
 
 
   return (
+    <Watermark text="22b3984" textSize={20} gutter={23} opacity={0.1} lineHeight="122.7">
     <div className="relative h-screen w-full">
       <div className="absolute top-4 left-4">
         <Link href="#">
@@ -56,6 +58,7 @@ export default function Terms() {
         </div>
       </div>
     </div>
+    </Watermark>
   )
 }
 
