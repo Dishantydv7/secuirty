@@ -4,7 +4,7 @@ import { PinContainer } from "../components/ui/3d-pin";
 
 export function Card({title ,content , description , linkofimage , pinbartitle}:any) {
   return (
-    <div className="h-[40rem] w-full flex items-center justify-center ">
+    <div className="h-[30rem] w-full flex items-center justify-center ">
       <PinContainer
         title= {pinbartitle}
         href="https://twitter.com/mannupaaji"

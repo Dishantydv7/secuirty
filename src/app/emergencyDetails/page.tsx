@@ -9,48 +9,54 @@ import { Watermark } from '@hirohe/react-watermark';
 
 export default function EmergencyDetails() {
 
-  const featuredWebinars = [
+  const featuredNumbers = [
     {
-      title: 'Understanding Music Theory',
+      title: 'MAIN GATE CONTROL ROOM',
       description:
-        'Dive deep into the fundamentals of music theory and enhance your musical skills.',
+        'INTERCOM - 1112',
       slug: 'understanding-music-theory',
+      description2 : "",
       isFeatured: true,
     },
     {
-      title: 'The Art of Songwriting',
+      title: 'QRT',
       description:
-        'Learn the craft of songwriting from experienced musicians and songwriters.',
+        'QRT - 9833338989',
       slug: 'the-art-of-songwriting',
+      description2 : "",
       isFeatured: true,
     },
     {
-      title: 'Mastering Your Instrument',
+      title: 'FEMALE QRT',
       description:
-        'Advanced techniques to master your musical instrument of choice.',
+        'FEMALE QRT - 9167398598',
       slug: 'mastering-your-instrument',
+      description2 : "",
       isFeatured: true,
     },
     {
-      title: 'Music Production Essentials',
+      title: 'VIGILANCE',
       description:
-        'Get started with music production with this comprehensive overview.',
+        'VIGILANCE - 9833337979',
       slug: 'music-production-essentials',
+      description2 : "",
       isFeatured: true,
     },
     // Added two more webinars
     {
-      title: 'Live Performance Techniques',
+      title: 'DUTY OFFICER',
       description:
-        'Enhance your live performance skills with expert tips and strategies.',
+        'MOBILE - 9167398596',
       slug: 'live-performance-techniques',
+      description2 : "INTERCOM - 1112",
       isFeatured: true,
     },
     {
-      title: 'Digital Music Marketing',
+      title: 'DUTY INSPECTOR',
       description:
-        'Learn how to promote your music effectively in the digital age.',
+        'MOBILE - 9167398597',
       slug: 'digital-music-marketing',
+      description2 : "INTERCOM - 1100",
       isFeatured: true,
     },
   ];
@@ -64,9 +70,10 @@ export default function EmergencyDetails() {
           <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">Emergency Contact</p>
         </div>
         <div className='m-10'>
-          <HoverEffect items={featuredWebinars.map(webinar => ({
+          <HoverEffect items={featuredNumbers.map(webinar => ({
             title: webinar.title,
             description: webinar.description,
+            description2: webinar.description2,
             link: '/'
           }))} />
         </div>

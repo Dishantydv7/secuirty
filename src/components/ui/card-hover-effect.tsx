@@ -10,6 +10,7 @@ export const HoverEffect = ({
   items: {
     title: string;
     description: string;
+    description2 : string;
     link: string;
   }[];
   className?: string;
@@ -51,6 +52,7 @@ export const HoverEffect = ({
           <Card>
             <CardTitle>{item.title}</CardTitle>
             <CardDescription>{item.description}</CardDescription>
+            <CardDescription>{item.description2 || null}</CardDescription>
           </Card>
         </Link>
       ))}
