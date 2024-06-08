@@ -91,6 +91,7 @@ function page() {
             </div> */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
         <Link
+        // should route to private url's
           href='/forms'>
           <Card
           pinbartitle="IMPORTANT FORMS"
@@ -99,10 +100,12 @@ function page() {
             linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432"
             style={{ maxWidth: '25%' }}
             description = "IMPORTANT FORMS" />
+            {/* adding syntax for static images
+             */}
         </Link>
         <Link
           href='/guidelines'>
-          <Card description = "Rules And Regulations" pinbartitle="REGULATIONS" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="RegulationS" style={{ maxWidth: '25%' }} />
+          <Card description = "Rules And Regulations" pinbartitle="REGULATIONS" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Regulations" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/emergencyDetails'>

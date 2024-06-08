@@ -32,6 +32,7 @@ const musicSchoolTestimonials = [
         name: 'Chris Morales',
         title: 'Music Production Student',
     },
+    
 ];
 
 function Testimonials() {
