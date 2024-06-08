@@ -9,19 +9,34 @@ export default function Component() {
   return (
     <>
     <div className="text-center p-3 mt-4 border rounded-3xl ">
-    <h1 className="text-5xl font-bold tracking-tight">Explore the Darkness</h1>
+    <h1 className="text-4xl font-bold tracking-tight">Checklist for planning any major official/students' event</h1>
     </div>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-950 text-white">
-      <div className="space-y-8 max-w-md w-full px-4">
+      <div className="space-y-8 max-w-2xl w-full px-4">
         
         <div className="grid gap-6">
           <div className="grid gap-1.5">
-            <Label htmlFor="name" className="text-center">Name</Label>
+            <Label htmlFor="name" className="text-center">Name of event</Label>
             <Input type="text" id="name" placeholder="Enter your name" />
+            <p className="text-sm text-gray-400">Plciubsivcbweease provide your full name.</p>
+          </div>
+          <div className="grid gap-1.5">
+            <Label htmlFor="name" className="text-center">Date of event</Label>
+            <Input type="text" id="name" placeholder="dd/mm/yyyy" />
             <p className="text-sm text-gray-400">Please provide your full name.</p>
           </div>
           <div className="grid gap-1.5">
-            <Label htmlFor="email" className="text-center">Email</Label>
+            <Label htmlFor="email" className="text-center">Location of event</Label>
+            <Input type="email" id="email" placeholder="Enter your email" />
+            <p className="text-sm text-gray-400">We&lsquo;ll never share your email with anyone else.</p>
+          </div>
+          <div className="grid gap-1.5">
+            <Label htmlFor="email" className="text-center">Organizing Department</Label>
+            <Input type="email" id="email" placeholder="Enter your email" />
+            <p className="text-sm text-gray-400">We&lsquo;ll never share your email with anyone else.</p>
+          </div>
+          <div className="grid gap-1.5">
+            <Label htmlFor="email" className="text-center">Number of participants</Label>
             <Input type="email" id="email" placeholder="Enter your email" />
             <p className="text-sm text-gray-400">We&lsquo;ll never share your email with anyone else.</p>
           </div>

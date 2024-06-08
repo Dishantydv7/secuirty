@@ -94,7 +94,7 @@ function page() {
           href='/police'>
           <Card
           pinbartitle="TRAFFIC POLICE"
-            title="1"
+            title="title"
             content="Traffic Police"
             linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432"
             style={{ maxWidth: '25%' }}
@@ -102,23 +102,35 @@ function page() {
         </Link>
         <Link
           href='/fines'>
-          <Card description = "Fines" pinbartitle="ACTS AND FINES" title="2" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Acts and Fines" style={{ maxWidth: '25%' }} />
+          <Card description = "Fines" pinbartitle="ACTS AND FINES" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Acts and Fines" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/emergencyDetails'>
-          <Card description= "Emergency Details" pinbartitle="EMERGENCY CONTACTS" title="3" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Emergenct Contacts" style={{ maxWidth: '25%' }} />
+          <Card description= "Emergency Details" pinbartitle="EMERGENCY CONTACTS" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Emergenct Contacts" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/weather'>
-          <Card description = "Weather" pinbartitle = "WEATHER" title="1" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Weather" style={{ maxWidth: '25%' }} />
+          <Card description = "Weather" pinbartitle = "WEATHER" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Weather" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/parking'>
-          <Card description = "Parking" pinbartitle ="PARKING" title="2" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Parking" style={{ maxWidth: '25%' }} />
+          <Card description = "Parking" pinbartitle ="PARKING" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Parking" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/rto'>
-          <Card description="RTO" pinbartitle = "RTO" title="3" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Department of Motor Police (RTO)" style={{ maxWidth: '25%' }} />
+          <Card description="RTO" pinbartitle = "RTO" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Department of Motor Police (RTO)" style={{ maxWidth: '25%' }} />
+        </Link>
+        <Link
+          href='/fines'>
+          <Card description = "Fines" pinbartitle="ACTS AND FINES" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Acts and Fines" style={{ maxWidth: '25%' }} />
+        </Link>
+        <Link
+          href='/emergencyDetails'>
+          <Card description= "Emergency Details" pinbartitle="EMERGENCY CONTACTS" title="title3" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Emergenct Contacts" style={{ maxWidth: '25%' }} />
+        </Link>
+        <Link
+          href='/weather'>
+          <Card description = "Weather" pinbartitle = "WEATHER" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Weather" style={{ maxWidth: '25%' }} />
         </Link>
       </div>
 </Watermark>
