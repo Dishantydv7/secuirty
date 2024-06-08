@@ -1,5 +1,7 @@
 "use client"
 import { Watermark } from "@hirohe/react-watermark";
+import Link from 'next/link'
+import { Button } from '@/components/ui/moving-border'
 
 export default function Weather() {
     return (
@@ -59,6 +61,14 @@ export default function Weather() {
                 </div> */}
                 
             </div>
+        </div>
+
+      <div className='p-10 text-center'>
+          <Link href={'/dashboard'}>
+            <Button>
+              Back to Mainpage
+            </Button>
+          </Link>
         </div>
         </Watermark>
     )

@@ -1,9 +1,12 @@
-
+"use client"
 import { TableHead, TableRow, TableHeader, TableCell, TableBody, Table } from "@/components/ui/table"
-import { Tab } from "@mui/material"
+import Link from "next/link"
+import { Button } from "@/components/ui/moving-border"
+import { Watermark } from '@hirohe/react-watermark'
 
 export default function Guidelines() {
     return (
+        <Watermark text="22b3984" textSize={20} gutter={23} opacity={0.1}>
         <div className="max-w-4xl mx-auto p-6 bg-black shadow-lg">
             <h1 className="text-3xl font-bold text-center mb-6">TERMS AND CONDITIONS</h1>
             <ul className="list-decimal pl-5 space-y-2 mb-6">
@@ -113,5 +116,13 @@ export default function Guidelines() {
                 <p className="italic mt-2">Leq: It is an energy mean of the noise level over a specified period.</p>
             </div>
         </div>
+         <div className='m-10 text-center'>
+          <Link href={'/dashboard'}>
+            <Button>
+              Back to Mainpage
+            </Button>
+          </Link>
+        </div>
+        </Watermark>
     )
 }

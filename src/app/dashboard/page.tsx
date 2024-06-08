@@ -91,18 +91,18 @@ function page() {
             </div> */}
       <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center'>
         <Link
-          href='/police'>
+          href='/forms'>
           <Card
-          pinbartitle="TRAFFIC POLICE"
+          pinbartitle="IMPORTANT FORMS"
             title="title"
-            content="Traffic Police"
+            content="IMPORTANT FORMS"
             linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432"
             style={{ maxWidth: '25%' }}
-            description = "Traffic Police" />
+            description = "IMPORTANT FORMS" />
         </Link>
         <Link
-          href='/fines'>
-          <Card description = "Fines" pinbartitle="ACTS AND FINES" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Acts and Fines" style={{ maxWidth: '25%' }} />
+          href='/guidelines'>
+          <Card description = "Rules And Regulations" pinbartitle="REGULATIONS" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="RegulationS" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/emergencyDetails'>
@@ -113,23 +113,23 @@ function page() {
           <Card description = "Weather" pinbartitle = "WEATHER" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Weather" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/parking'>
+          href='/404'>
           <Card description = "Parking" pinbartitle ="PARKING" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Parking" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/rto'>
+          href='/404'>
           <Card description="RTO" pinbartitle = "RTO" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Department of Motor Police (RTO)" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/fines'>
+          href='/404'>
           <Card description = "Fines" pinbartitle="ACTS AND FINES" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Acts and Fines" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/emergencyDetails'>
+          href='/404'>
           <Card description= "Emergency Details" pinbartitle="EMERGENCY CONTACTS" title="title3" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Emergenct Contacts" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/weather'>
+          href='/404'>
           <Card description = "Weather" pinbartitle = "WEATHER" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Weather" style={{ maxWidth: '25%' }} />
         </Link>
       </div>

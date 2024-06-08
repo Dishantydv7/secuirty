@@ -1,13 +1,16 @@
-
+"use client"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/moving-border"
 import { ButtonAsChild } from "@/components/ButtonAsChild"
+import { Watermark } from '@hirohe/react-watermark'
+import Link from "next/link"
 
 export default function Component() {
   return (
     <>
+      <Watermark text="22b3984" textSize={20} gutter={23} opacity={0.15}>
     <div className="text-center p-3 mt-4 border rounded-3xl ">
     <h1 className="text-4xl font-bold tracking-tight">Checklist for planning any major official/students&apos; event</h1>
     </div>
@@ -59,6 +62,15 @@ export default function Component() {
         </div>
       </div>
     </div>
+
+        <div className='m-10 text-center'>
+          <Link href={'/dashboard'}>
+            <Button>
+              Back to Mainpage
+            </Button>
+          </Link>
+        </div>
+      </Watermark>
     </>
   )
 }
