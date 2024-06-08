@@ -9,7 +9,7 @@ export default function Component() {
   return (
     <>
     <div className="text-center p-3 mt-4 border rounded-3xl ">
-    <h1 className="text-4xl font-bold tracking-tight">Checklist for planning any major official/students' event</h1>
+    <h1 className="text-4xl font-bold tracking-tight">Checklist for planning any major official/students&apos; event</h1>
     </div>
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-950 text-white">
       <div className="space-y-8 max-w-2xl w-full px-4">
