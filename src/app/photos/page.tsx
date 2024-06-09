@@ -18,9 +18,30 @@ export default function Component() {
         e.preventDefault()
         console.log(pass)
         console.log(username)
-        if (pass == "12@gmail.com" && username == "hikaru") {
-            router.push("/reports")
-        } else {
+        if (username == "DD.AIA" && pass == "0=3><)NOG3k4") {
+            router.push("/=reports))*xyz")
+        }else if(username == "DD.FEA" && pass == "24W'qK(Ls,V6"){
+            router.push("/=reports))*xyz")
+        } 
+        else if(username == "Dean.AA" && pass == "%Wf=13Y`lk!2"){
+            router.push("/=reports))*xyz")
+        } 
+        else if(username == "Registrar" && pass == "7d>52PE7.}Ez"){
+            router.push("/=reports))*xyz")
+        } 
+        else if(username == "CSO" && pass == "MP%1hB<Y9P6%"){
+            router.push("/=reports))*xyz")
+        } 
+        else if(username == "ASO" && pass == "|1h0I8!l_T@1"){
+            router.push("/=reports))*xyz")
+        } 
+        else if(username == "Director" && pass == "tjsR0hz>8A1J"){
+            router.push("/=reports))*xyz")
+        } 
+        else if(username == "dishant" && pass == "dishant"){
+            router.push("/=reports))*xyz")
+        } 
+         else {
             router.push("/Error")
         }
     }
@@ -130,7 +151,7 @@ export default function Component() {
                     </div>
                     <div className="mx-auto w-full max-w-sm space-y-2">
                         <form className="flex  flex-col gap-3" onSubmit={handleSubmit}>
-                            <Input  type="username" placeholder="Enter your username" onChange={(e) => { setUsername(e.target.value) }} value={username} className="max-w-lg flex-1" />
+                            <Input  type="username" placeholder="Enter your UserID" onChange={(e) => { setUsername(e.target.value) }} value={username} className="max-w-lg flex-1" />
                             <Input type="password" placeholder="Enter your password" onChange={(e) => { setPass(e.target.value) }} value={pass} className="max-w-lg flex-1" />
                             <Button type="submit">Sign Up</Button>
                         </form>
@@ -164,7 +185,7 @@ export default function Component() {
                             </div>
                             <div className="mx-auto flex w-full items-center justify-center p-4 sm:p-8">
                                 <img
-                                    src="/placeholder.svg"
+                                    src="/../placeholder.svg"
                                     width="140"
                                     height="70"
                                     alt="Logo"
