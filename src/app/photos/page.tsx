@@ -3,12 +3,27 @@ import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import Autoplay from "embla-carousel-autoplay"
-
+import { useState } from "react"
+import { useRouter } from "next/navigation"
 
 
 
 export default function Component() {
+
+    const router = useRouter()
+
+    const [username, setUsername] = useState("")
+    const [pass, setPass] = useState("")
+    const handleSubmit = (e: any) => {
+        e.preventDefault()
+        console.log(pass)
+        console.log(username)
+        if (pass == "12@gmail.com" && username == "hikaru") {
+            router.push("/reports")
+        } else {
+            router.push("/Error")
+        }
+    }
     return (
         <div className="flex flex-col">
             <section className="w-ful m-8 ">
@@ -114,8 +129,9 @@ export default function Component() {
                         </p>
                     </div>
                     <div className="mx-auto w-full max-w-sm space-y-2">
-                        <form className="flex space-x-2">
-                            <Input type="email" placeholder="Enter your email" className="max-w-lg flex-1" />
+                        <form className="flex  flex-col gap-3" onSubmit={handleSubmit}>
+                            <Input  type="username" placeholder="Enter your username" onChange={(e) => { setUsername(e.target.value) }} value={username} className="max-w-lg flex-1" />
+                            <Input type="password" placeholder="Enter your password" onChange={(e) => { setPass(e.target.value) }} value={pass} className="max-w-lg flex-1" />
                             <Button type="submit">Sign Up</Button>
                         </form>
                         <p className="text-xs text-gray-500 dark:text-gray-400">
