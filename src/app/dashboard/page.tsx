@@ -116,12 +116,12 @@ function page() {
           <Card description = "Weather" pinbartitle = "WEATHER" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Weather" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/404'>
-          <Card description = "Parking" pinbartitle ="PARKING" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Parking" style={{ maxWidth: '25%' }} />
+          href='/photos'>
+          <Card description = "Photos" pinbartitle ="PHOTOS" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Photos" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
-          href='/404'>
-          <Card description="RTO" pinbartitle = "RTO" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Department of Motor Police (RTO)" style={{ maxWidth: '25%' }} />
+          href='/reports'>
+          <Card description="Reports" pinbartitle = "REPORTS" title="title" linkofimage="https://www.denofgeek.com/wp-content/uploads/2022/05/Leged-of-Zelda-Link.jpg?resize=768%2C432" content="Reports" style={{ maxWidth: '25%' }} />
         </Link>
         <Link
           href='/404'>
