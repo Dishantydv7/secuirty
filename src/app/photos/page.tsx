@@ -19,27 +19,27 @@ export default function Component() {
         console.log(pass)
         console.log(username)
         if (username == "DD.AIA" && pass == "0=3><)NOG3k4") {
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         }else if(username == "DD.FEA" && pass == "24W'qK(Ls,V6"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
         else if(username == "Dean.AA" && pass == "%Wf=13Y`lk!2"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
         else if(username == "Registrar" && pass == "7d>52PE7.}Ez"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
         else if(username == "CSO" && pass == "MP%1hB<Y9P6%"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
         else if(username == "ASO" && pass == "|1h0I8!l_T@1"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
         else if(username == "Director" && pass == "tjsR0hz>8A1J"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
         else if(username == "dishant" && pass == "dishant"){
-            router.push("/=reports))*xyz")
+            router.push("/69lXCTIVinWtfhhBMrUuQflivs9a7ujqlF")
         } 
          else {
             router.push("/Error")
