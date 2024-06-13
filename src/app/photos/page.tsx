@@ -1,9 +1,10 @@
 "use client"
+import React from "react"
 import { Carousel, CarouselContent, CarouselItem, CarouselPrevious, CarouselNext } from "@/components/ui/carousel"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
-import { useState } from "react"
+import { useState , useRef , useEffect } from "react"
 import { useRouter } from "next/navigation"
 
 
@@ -46,6 +47,8 @@ export default function Component() {
         }
     }
     return (
+        <>
+
         <div className="flex flex-col">
             <section className="w-ful m-8 ">
                 <Carousel className="w-full ">
@@ -251,6 +254,7 @@ export default function Component() {
                 </div>
             </section> */}
         </div>
+        </>
     )
 }
 

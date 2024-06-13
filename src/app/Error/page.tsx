@@ -15,11 +15,11 @@ export default function Component() {
           <TriangleAlertIcon className="h-12 w-12 text-red-500" />
           <h1 className="text-2xl font-bold text-red-500">Invalid Credentials</h1>
           <p className="text-center text-gray-500 dark:text-gray-400">
-            The email or password you entered is incorrect. Please try again or navigate to the login page.
+            The UserID or password you entered is incorrect. Please try again or navigate to the login page.
           </p>
           <div className="flex w-full flex-col gap-2 sm:flex-row">
             <Button variant="outline" className="flex-1" onClick={() => (
-                router.push('/photos')
+              router.push('/reports')
             )}>
               Try Again
             </Button>

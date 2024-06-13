@@ -21,7 +21,7 @@ export function Card({title ,content , description , linkofimage , pinbartitle}:
           <img 
           src={linkofimage}
           />
-          <div className="font-extrabold justify-center items-center  flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br from-violet-500 via-purple-500 to-blue-500" >{description}</div>
+          <div className="font-extrabold text-white justify-center items-center  flex flex-1 w-full rounded-lg mt-4 bg-gradient-to-br bg-blue-400" >{description}</div>
         </div>
       </PinContainer>
     </div>
